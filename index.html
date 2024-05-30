@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comité des Fêtes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Comité des Fêtes</h1>
+</header>
+
+<nav>
+    <a href="#home">Accueil</a>
+    <a href="#prochain-evenement">Prochain Événement</a>
+    <a href="#evenements-passes">Événements Passés</a>
+    <a href="#a-propos">À Propos</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>Bienvenue au Comité des Fêtes</h2>
+    <p>Bienvenue sur le site du Comité des Fêtes. Nous organisons des événements pour la communauté tout au long de l'année.</p>
+</div>
+
+<div class="container" id="prochain-evenement">
+    <h2>Prochain Événement</h2>
+    <p>Détails sur le prochain événement à venir...</p>
+</div>
+
+<div class="container" id="evenements-passes">
+    <h2>Événements Passés</h2>
+    <p>Liste des événements passés avec photos et descriptions...</p>
+</div>
+
+<div class="container" id="a-propos">
+    <h2>À Propos</h2>
+    <p>Informations sur le comité, son histoire, ses membres...</p>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact</h2>
+    <form action="#" method="post">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+<footer>
+    <p>Comité des Fêtes - Tous droits réservés © 2024</p>
+</footer>
+
+</body>
+</html>
 
